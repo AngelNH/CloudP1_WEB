@@ -24,11 +24,11 @@ $(document).ready(function() {
   }
   
   $("#next").click( function(e) {
-
+      //TODO program next
   });
   
   $("#previous").click( function(e) {
-  
+      //TODO program previous
   });
 
   function renderQueryResults(data) {
@@ -37,7 +37,7 @@ $(document).ready(function() {
       $("#status").html("Error: "+data.error);
     } else {
       $("#status").html(""+data.num_results+" result(s)");
-
+      
       $("#next").show();
       $("#previous").show();
       
